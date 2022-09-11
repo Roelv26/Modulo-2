@@ -1,3 +1,7 @@
+# Roel Adrián De la Rosa Castillo
+# A01197595
+# Uso de framework o biblioteca de aprendizaje máquina para la implementación de una solución. - Entrega intermedia
+
 # Importamos las librerías necesarias
 import pandas as pd
 import numpy as np
