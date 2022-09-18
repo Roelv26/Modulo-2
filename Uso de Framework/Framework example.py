@@ -29,6 +29,10 @@ model = tree.DecisionTreeClassifier()
 # Se entrena el modelo con nuestros datos de entrenamiento
 model.fit(X_train, Y_train)
 
+# Se grafica como es que el modelo toma sus decisiones
+tree.plot_tree(model)
+plt.show()
+
 # Se predice a partir del set de prueba
 y_pred = model.predict(X_test)
 
